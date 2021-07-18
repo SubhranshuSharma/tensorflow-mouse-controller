@@ -9,8 +9,8 @@ Getting Started:
 
 1. Use the wiring imformation below to make connections.
 2. Upload arduino code of choice to arduino 33 ble sense.
-3. Make sure all other serial ports are free and connect arduino to pc.
-4. Room should not be dark more the light better it works.
+3. Make sure no other device is connected to serial ports and connect arduino to pc.
+4. Room should not be dark more the light, better it works.
 5. Run the mouse.exe file.
 6. Although mouse only moves 15 pixels every 3 seconds, slam the curser in right corner to stop mouse.exe if mouse goes crazy don't do it otherwise.
 7. Use task manager to close mouse.exe when you are done.
