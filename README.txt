@@ -32,10 +32,11 @@ D0	                     D10
 
 How to move mouse:
 
-1. I have also added images in arduino code folder showing what hand gesture does what,and for using eyes its obvious but still I have included photos from dataset to make it clear.
-2. The background should be a out of focus white wall(any colour other than black should work but not great) You should not be in the background.
-3. Make the camera focus on near objects by rotating lens clockwise.
-4. It jumps 15 pixels every 3 second to change it go to model_settings.cpp and add your required number of pixels at end of up, down, right, left, hold and dclick like shown below
+1. For controlling using hands one finger pointing up is up, 2 fingures pointing up is down, one fingure pointing right is right ,2 fingures pointing pointing right is left. 
+2. For using eyes its obvious but still I have included photos from dataset to make it clear. for moving curser down using eyes dont make the eyes look too down or it will look like eyes are closed, half down eyes look very similar to sleepy eyes.
+3. The background should be a out of focus white wall(any colour other than black should work but not great) You should not be in the background.
+4. Make the camera focus on near objects by rotating lens clockwise.
+5. It jumps 15 pixels every 3 second to change it go to model_settings.cpp and add your required number of pixels at end of up, down, right, left, hold and dclick like shown below
    
 const char* kCategoryLabels[kCategoryCount] = {
     "up 30","down 30","right 30","left 30","hold 30","dclick 30",
