@@ -52,7 +52,7 @@ D0	       ->         D10
 
 How to move mouse:
 
-1. For controlling using hands one finger pointing up is up, 2 fingures pointing up is down, one fingure pointing right is right ,2 fingures pointing pointing right is left. 
+1. For controlling using hands one finger pointing up is up, 2 fingures pointing up is down, one fingure pointing right is right ,2 fingures pointing right is left. 
 2. For using eyes its obvious but still I have included photos from dataset to make it clear. for moving curser down using eyes dont make the eyes look too down or it will look like eyes are closed, half down eyes look very similar to sleepy eyes.
 3. The background should be a out of focus white wall(any colour other than black should work but not great) You should not be in the background.
 4. Make the camera focus on near objects by rotating lens clockwise.
