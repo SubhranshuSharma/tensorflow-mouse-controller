@@ -51,7 +51,7 @@ D0	       ->         D10
 
 How to move mouse:
 
-1. Look into dataset folder in arduino code folder to see what it should look like to the camera)
+1. I have also added images in arduino code folder showing what hand gesture does what,and for using eyes its obvious but still I have included photos from dataset to make it clear.
 2. The background should be a out of focus white wall(any colour other than black should work but not great) You should not be in the background.
 3. Make the camera focus on near objects by rotating lens clockwise.
 4. It jumps 15 pixels every 3 second to change it go to model_settings.cpp and add your required number of pixels at end of up, down, right, left, hold and dclick like shown below
@@ -61,5 +61,5 @@ const char* kCategoryLabels[kCategoryCount] = {
 };
 
 Troubleshooting:
-1. If you are having trouble using mouse.exe file, its just bootable version of mouse.py file to use mouse.py file download python and all imported liberaries and comment out all the lines(from port select section) other than line consisting of your board's port number.
+1. If you are having trouble using mouse.exe file, its just bootable version of mouse.py file to use mouse.py file download python and download all imported liberaries and run the script.
    mouse.py file will also print all the serial port devices if there are more than one than remove other devices
