@@ -1,7 +1,9 @@
 # tensorflow-mouse-controller
 This project uses tensorflow lite for microcontrollers  to control mouse using eyes or hands. it's made using teachable machine website.
+
 Camera used- ov7670
-board used- Arduino 33 ble sense
+
+Board used- Arduino 33 ble sense
 
 Getting Started:
 
