@@ -11,7 +11,7 @@ Getting Started:
 2. Use the wiring imformation below to make connections.
 3. Upload arduino code of choice to arduino 33 ble sense.
 4. Make sure no other device is connected to serial ports and connect arduino to pc.
-5. Room should not be dark more the light, better it works.
+5. Room should not be dark, more the light, better it works.
 6. Run the mouse.exe file.
 7. Although mouse only moves 15 pixels every 3 seconds, slam the curser in right corner to stop mouse.exe if mouse goes crazy don't do it otherwise.
 8. Use task manager to close mouse.exe when you are done.
@@ -52,8 +52,8 @@ D0	       ->         D10
 
 How to move mouse:
 
-1. For controlling using hands one finger pointing up is up, 2 fingures pointing up is down, one fingure pointing right is right ,2 fingures pointing right is left. 
-2. For using eyes its obvious but still I have included photos from dataset to make it clear. for moving curser down using eyes dont make the eyes look too down or it will look like eyes are closed, half down eyes look very similar to sleepy eyes.
+1. For controlling using hands one finger pointing up is up, 2 fingures pointing up is down, one fingure pointing right is right ,2 fingures pointing right is left and showing it palm is double click. 
+2. For using eyes its obvious but still I have included photos from dataset to make it clear. for moving curser down using eyes dont make the eyes look too down or it will look like eyes are closed, half down eyes look very similar to sleepy eyes do that to move it down, others are obvious looking left is left, looking right is right is right up is up and closed eyes is double click, out of focus white wall is hold.
 3. The background should be a out of focus white wall(any colour other than black should work but not great) You should not be in the background.
 4. Make the camera focus on near objects by rotating lens clockwise.
 5. It jumps 15 pixels every 3 second to change it go to model_settings.cpp and add your required number of pixels at end of up, down, right, left, hold and dclick like shown below
