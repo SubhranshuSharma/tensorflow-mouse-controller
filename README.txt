@@ -34,11 +34,12 @@ D0	       ->            D10
 
 How to move mouse:
 
-1. For controlling using hands one finger pointing up is up, 2 fingures pointing up is down, one fingure pointing right is right ,2 fingures pointing right is left. 
-2. For using eyes its obvious but still I have included photos from dataset to make it clear. for moving curser down using eyes dont make the eyes look too down or it will look like eyes are closed, half down eyes look very similar to sleepy eyes.
-3. The background should be a out of focus white wall(any colour other than black should work but not great) You should not be in the background.
-4. Make the camera focus on near objects by rotating lens clockwise.
-5. It jumps 15 pixels every 3 second to change it go to model_settings.cpp and add your required number of pixels at end of up, down, right, left, hold and dclick like shown below
+1. For controlling using hands one finger pointing up is up, 2 fingures pointing up is down, one fingure pointing right is right ,2 fingures pointing right is left and showing it palm is double click. 
+2. For using eyes its obvious but still I have included photos from dataset to make it clear. for moving curser down using eyes dont make the eyes look too down or it will look like eyes are closed, half down eyes look very similar to sleepy eyes do that to move it down, others are obvious looking left is left, looking right is right is right up is up and closed eyes is double click, out of focus white wall is hold.
+3. I have also included dataset folder consisting of training images so you can get an idea of how much varity code can handel.
+4. The background should be a out of focus white wall(any colour other than black should work but not great) You should not be in the background.
+5. Make the camera focus on near objects by rotating lens clockwise.
+6. It jumps 15 pixels every 3 second to change it go to model_settings.cpp and add your required number of pixels at end of up, down, right, left, hold and dclick like shown below
    
 const char* kCategoryLabels[kCategoryCount] = {
     "up 30","down 30","right 30","left 30","hold 30","dclick 30",
