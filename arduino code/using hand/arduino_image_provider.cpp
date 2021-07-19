@@ -16,23 +16,7 @@
 #include "image_provider.h"
 
 /*
-   The sample requires the following third-party libraries to be installed and
-   configured:
-
-   Arducam
-   -------
-   1. Download https://github.com/ArduCAM/Arduino and copy its `ArduCAM`
-      subdirectory into `Arduino/libraries`. Commit #e216049 has been tested
-      with this code.
-   2. Edit `Arduino/libraries/ArduCAM/memorysaver.h` and ensure that
-      "#define OV2640_MINI_2MP_PLUS" is not commented out. Ensure all other
-      defines in the same section are commented out.
-
-   JPEGDecoder
-   -----------
-   1. Install "JPEGDecoder" 1.8.0 from the Arduino library manager.
-   2. Edit "Arduino/Libraries/JPEGDecoder/src/User_Config.h" and comment out
-      "#define LOAD_SD_LIBRARY" and "#define LOAD_SDFAT_LIBRARY".
+   dwnload the OV767X liberary to use this code
 */
 
 #if defined(ARDUINO) && !defined(ARDUINO_ARDUINO_NANO33BLE)
